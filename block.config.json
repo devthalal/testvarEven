@@ -1,0 +1,14 @@
+{
+  "name": "helloFnBlock",
+  "blockId": "LM9DvGQFPyFwehyJtXDjM",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/helloFnBlock",
+    "ssh": "git@github.com:devthalal/helloFnBlock.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
